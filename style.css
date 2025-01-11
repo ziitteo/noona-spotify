@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.nav-item {
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headline {
+    font-size: 146px;
+    font-weight: 900;
+    line-height: 166px;
+    color: #1ed760;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+
+.headline-first {
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline {
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.button-style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    color: #2941ab;
+    border: none;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: inherit;
+}
+
+.button-style:hover {
+    transform: scale(1.07);
+    background-color: #2de26d;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    align-items: center;
+    
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.first-box {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.second-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+
+.sub-title {
+    margin: 20px 0px;
+    color: #919496;
+    font-weight: 900;
+}
+
+.footer-menu-item {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.icon-box {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #222322;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+}
+    
+.icon:hover {
+    color: #2de26d;
+}
+
+.first-line {
+    display: flex;
+    justify-content: flex-end;
+    color: #919496;
+    font-size: 12px;
+}
+
+.second-line {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.second-line-item {
+    padding-right: 24px;
+    color: #919496;
+}
